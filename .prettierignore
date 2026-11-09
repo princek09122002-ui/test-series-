@@ -1,0 +1,6 @@
+node_modules
+.next
+.local
+src/generated
+package-lock.json
+NEET_PERSONALIZED_ASSESSMENT_PLATFORM.md

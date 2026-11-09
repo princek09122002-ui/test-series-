@@ -1,0 +1,17 @@
+[
+  {
+    "text": "How many moles are present in 9 g of water? Use a molar mass of 18 g/mol.",
+    "options": ["0.5 mol", "1 mol", "2 mol", "9 mol"],
+    "correctOption": 0,
+    "explanation": "Amount equals mass divided by molar mass: 9 / 18 = 0.5 mol.",
+    "chapterId": "demo-mole",
+    "topicIds": ["demo-mole-0"],
+    "prerequisiteIds": [],
+    "difficulty": "EASY",
+    "language": "en",
+    "source": "Original teaching example",
+    "license": "ORIGINAL",
+    "tags": ["moles", "mass"],
+    "media": []
+  }
+]

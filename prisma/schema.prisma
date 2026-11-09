@@ -1,0 +1,608 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+enum Role {
+  STUDENT
+  EDITOR
+  ADMIN
+}
+enum ProgressStatus {
+  NOT_STARTED
+  LEARNING
+  COMPLETED
+  REVISING
+}
+enum Difficulty {
+  EASY
+  MEDIUM
+  HARD
+}
+enum ReviewStatus {
+  DRAFT
+  PENDING
+  APPROVED
+  REJECTED
+  ARCHIVED
+}
+enum TestMode {
+  LEARNING
+  TIMED
+  NEET
+}
+enum AttemptStatus {
+  ACTIVE
+  SUBMITTED
+}
+
+model User {
+  id              String   @id @default(cuid())
+  name            String?
+  email           String   @unique
+  emailVerified   DateTime?
+  image           String?
+  passwordHash    String?
+  role            Role     @default(STUDENT)
+  sessionVersion  Int      @default(0)
+  disabled        Boolean  @default(false)
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+  accounts        Account[]
+  sessions        Session[]
+  profile         UserProfile?
+  resets          PasswordReset[]
+  progress        UserTopicProgress[]
+  attempts        TestAttempt[]
+  exposures       QuestionExposure[]
+  bookmarks       Bookmark[]
+  mistakes        MistakeRecord[]
+  revisions       RevisionTask[]
+  reports         QuestionReport[]
+  reviews         QuestionReview[]
+  participations  ChallengeParticipation[]
+  auditLogs       AuditLog[]
+}
+model Account {
+  id                String @id @default(cuid())
+  userId            String
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String? @db.Text
+  access_token      String? @db.Text
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String? @db.Text
+  session_state     String?
+  user              User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  @@unique([provider, providerAccountId])
+}
+model Session {
+  id           String @id @default(cuid())
+  sessionToken String @unique
+  userId       String
+  expires      DateTime
+  createdAt    DateTime @default(now())
+  user         User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  @@index([userId])
+}
+model VerificationToken {
+  identifier String
+  token      String @unique
+  expires    DateTime
+  @@unique([identifier, token])
+}
+model PasswordReset {
+  id        String @id @default(cuid())
+  userId    String
+  tokenHash String @unique
+  expiresAt DateTime
+  user      User @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+model UserProfile {
+  userId          String @id
+  stage           String @default("CLASS_11")
+  examYear        Int @default(2027)
+  language        String @default("en")
+  dailyGoal       Int @default(20)
+  subjects        String[] @default(["Physics", "Chemistry", "Biology"])
+  displayName     String?
+  leaderboard     Boolean @default(false)
+  timezone        String @default("Asia/Kolkata")
+  onboarded       Boolean @default(false)
+  user            User @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+model SyllabusVersion {
+  id          String @id @default(cuid())
+  name        String @unique
+  year        Int
+  active      Boolean @default(false)
+  demo        Boolean @default(false)
+  sourceUrl   String?
+  subjects    Subject[]
+  blueprints  ExamBlueprint[]
+  tests       Test[]
+}
+model Subject {
+  id         String @id @default(cuid())
+  name       String
+  slug       String
+  order      Int @default(0)
+  syllabusId String
+  syllabus   SyllabusVersion @relation(fields: [syllabusId], references: [id])
+  chapters   Chapter[]
+  sections   ExamBlueprintSection[]
+  units      SyllabusUnit[]
+  @@unique([syllabusId, slug])
+}
+model Chapter {
+  canonicalQuestions CanonicalQuestionRecord[]
+  id             String @id @default(cuid())
+  name           String
+  slug           String
+  classLevel     Int
+  classification String?
+  unitId         String?
+  unit           SyllabusUnit? @relation(fields: [unitId], references: [id])
+  sourceRef      String?
+  order          Int @default(0)
+  active         Boolean @default(true)
+  subjectId      String
+  subject        Subject @relation(fields: [subjectId], references: [id])
+  topics         Topic[]
+  questions      Question[]
+  @@unique([subjectId, classLevel, slug])
+  @@index([subjectId, classLevel, active])
+}
+model Topic {
+  canonicalQuestions CanonicalQuestionTopic[]
+  id          String @id @default(cuid())
+  name        String
+  slug        String
+  chapterId   String
+  parentId    String?
+  order       Int @default(0)
+  active      Boolean @default(true)
+  description String?
+  ncertRef    String?
+  eligibility String @default("UNVERIFIED")
+  chapter     Chapter @relation(fields: [chapterId], references: [id])
+  parent      Topic? @relation("Subtopics", fields: [parentId], references: [id])
+  subtopics   Topic[] @relation("Subtopics")
+  requires    TopicPrerequisite[] @relation("Dependent")
+  requiredBy  TopicPrerequisite[] @relation("Required")
+  questions   QuestionTopic[]
+  progress    UserTopicProgress[]
+  revisions   RevisionTask[]
+  @@unique([chapterId, slug])
+}
+model TopicPrerequisite {
+  topicId        String
+  prerequisiteId String
+  topic          Topic @relation("Dependent", fields: [topicId], references: [id])
+  prerequisite   Topic @relation("Required", fields: [prerequisiteId], references: [id])
+  @@id([topicId, prerequisiteId])
+}
+model UserTopicProgress {
+  userId    String
+  topicId   String
+  status    ProgressStatus @default(NOT_STARTED)
+  updatedAt DateTime @updatedAt
+  user      User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  topic     Topic @relation(fields: [topicId], references: [id])
+  @@id([userId, topicId])
+}
+model Question {
+  structuredContent Json?
+  id            String @id @default(cuid())
+  chapterId     String
+  type          String @default("SINGLE_CORRECT")
+  text          String @db.Text
+  explanation   String @db.Text
+  correctOption Int
+  difficulty    Difficulty
+  language      String @default("en")
+  source        String @default("Original")
+  license       String @default("ORIGINAL")
+  tags          String[] @default([])
+  status        ReviewStatus @default(DRAFT)
+  active        Boolean @default(true)
+  version       Int @default(1)
+  authorId      String?
+  importRecord  SourceQuestion?
+  examYear      Int?
+  contentHash   String?
+  @@index([examYear, contentHash])
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+  chapter       Chapter @relation(fields: [chapterId], references: [id])
+  options       QuestionOption[]
+  topics        QuestionTopic[]
+  versions      QuestionVersion[]
+  media         QuestionMedia[]
+  reviews       QuestionReview[]
+  reports       QuestionReport[]
+  exposures     QuestionExposure[]
+  bookmarks     Bookmark[]
+  testQuestions TestQuestion[]
+  @@index([chapterId, status, active, difficulty, language])
+}
+model QuestionOption {
+  id         String @id @default(cuid())
+  questionId String
+  position   Int
+  text       String @db.Text
+  question   Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  @@unique([questionId, position])
+}
+model QuestionTopic {
+  questionId String
+  topicId    String
+  required   Boolean @default(false)
+  question   Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+  topic      Topic @relation(fields: [topicId], references: [id])
+  @@id([questionId, topicId])
+  @@index([topicId])
+}
+model QuestionVersion {
+  id         String @id @default(cuid())
+  questionId String
+  version    Int
+  snapshot   Json
+  createdAt  DateTime @default(now())
+  question   Question @relation(fields: [questionId], references: [id])
+  @@unique([questionId, version])
+}
+model QuestionMedia {
+  id         String @id @default(cuid())
+  questionId String
+  url        String
+  alt        String
+  question   Question @relation(fields: [questionId], references: [id], onDelete: Cascade)
+}
+model QuestionReview {
+  id         String @id @default(cuid())
+  questionId String
+  reviewerId String
+  status     ReviewStatus
+  notes      String?
+  createdAt  DateTime @default(now())
+  question   Question @relation(fields: [questionId], references: [id])
+  reviewer   User @relation(fields: [reviewerId], references: [id])
+}
+model QuestionReport {
+  id         String @id @default(cuid())
+  questionId String
+  userId     String
+  message    String
+  resolved   Boolean @default(false)
+  resolution String?
+  createdAt  DateTime @default(now())
+  question   Question @relation(fields: [questionId], references: [id])
+  user       User @relation(fields: [userId], references: [id])
+}
+model QuestionExposure {
+  userId     String
+  questionId String
+  lastSeen   DateTime @default(now())
+  user       User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  question   Question @relation(fields: [questionId], references: [id])
+  @@id([userId, questionId])
+}
+model Bookmark {
+  userId     String
+  questionId String
+  user       User @relation(fields: [userId], references: [id], onDelete: Cascade)
+  question   Question @relation(fields: [questionId], references: [id])
+  @@id([userId, questionId])
+}
+model ExamBlueprint {
+  id              String @id @default(cuid())
+  name            String
+  syllabusId      String
+  totalQuestions  Int
+  durationMinutes Int
+  correctMarks    Int @default(4)
+  incorrectMarks  Int @default(-1)
+  unansweredMarks Int @default(0)
+  active          Boolean @default(true)
+  version         Int @default(1)
+  syllabus        SyllabusVersion @relation(fields: [syllabusId], references: [id])
+  sections        ExamBlueprintSection[]
+}
+model ExamBlueprintSection {
+  id          String @id @default(cuid())
+  blueprintId String
+  subjectId   String
+  count       Int
+  blueprint   ExamBlueprint @relation(fields: [blueprintId], references: [id], onDelete: Cascade)
+  subject     Subject @relation(fields: [subjectId], references: [id])
+  @@unique([blueprintId, subjectId])
+}
+model Test {
+  id          String @id @default(cuid())
+  name        String
+  kind        String
+  syllabusId  String
+  seed        String
+  createdAt   DateTime @default(now())
+  syllabus    SyllabusVersion @relation(fields: [syllabusId], references: [id])
+  configuration TestConfiguration?
+  questions   TestQuestion[]
+  attempts    TestAttempt[]
+  challenge   Challenge?
+}
+model TestConfiguration {
+  testId          String @id
+  request         Json
+  mode            TestMode
+  durationSeconds Int?
+  correctMarks    Int
+  incorrectMarks  Int
+  unansweredMarks Int @default(0)
+  scoringVersion  String @default("v1")
+  instantFeedback Boolean @default(false)
+  test            Test @relation(fields: [testId], references: [id], onDelete: Cascade)
+}
+model TestQuestion {
+  id         String @id @default(cuid())
+  testId     String
+  questionId String
+  position   Int
+  version    Int
+  snapshot   Json
+  test       Test @relation(fields: [testId], references: [id])
+  question   Question @relation(fields: [questionId], references: [id])
+  responses  QuestionResponse[]
+  mistakes   MistakeRecord[]
+  @@unique([testId, position])
+  @@unique([testId, questionId])
+}
+model TestAttempt {
+  id          String @id @default(cuid())
+  testId      String
+  userId      String
+  status      AttemptStatus @default(ACTIVE)
+  startedAt   DateTime @default(now())
+  deadline    DateTime?
+  submittedAt DateTime?
+  score       Int?
+  maximum     Int?
+  correct     Int?
+  incorrect   Int?
+  unattempted Int?
+  user        User @relation(fields: [userId], references: [id])
+  test        Test @relation(fields: [testId], references: [id])
+  responses   QuestionResponse[]
+  events      QuestionInteractionEvent[]
+  analytics   TestAnalyticsSnapshot?
+  mistakes    MistakeRecord[]
+  participation ChallengeParticipation?
+  @@unique([testId, userId])
+  @@index([userId, status, startedAt])
+  @@index([status, deadline])
+}
+model QuestionResponse {
+  attemptId      String
+  testQuestionId String
+  selectedOption Int?
+  marked         Boolean @default(false)
+  visited        Boolean @default(false)
+  activeMs       Int @default(0)
+  firstPassMs    Int @default(0)
+  revisitMs      Int @default(0)
+  visits         Int @default(0)
+  changes        Int @default(0)
+  revision       Int @default(0)
+  updatedAt      DateTime @updatedAt
+  attempt        TestAttempt @relation(fields: [attemptId], references: [id])
+  testQuestion   TestQuestion @relation(fields: [testQuestionId], references: [id])
+  @@id([attemptId, testQuestionId])
+}
+model QuestionInteractionEvent {
+  id             String @id
+  attemptId      String
+  testQuestionId String?
+  type           String
+  activeMs       Int @default(0)
+  receivedAt     DateTime @default(now())
+  attempt        TestAttempt @relation(fields: [attemptId], references: [id])
+  @@index([attemptId])
+}
+model TestAnalyticsSnapshot {
+  attemptId String @id
+  data      Json
+  createdAt DateTime @default(now())
+  attempt   TestAttempt @relation(fields: [attemptId], references: [id])
+}
+model MistakeRecord {
+  id             String @id @default(cuid())
+  userId         String
+  attemptId      String
+  testQuestionId String
+  category       String @default("UNCATEGORIZED")
+  reviewed       Boolean @default(false)
+  createdAt      DateTime @default(now())
+  user           User @relation(fields: [userId], references: [id])
+  attempt        TestAttempt @relation(fields: [attemptId], references: [id])
+  testQuestion   TestQuestion @relation(fields: [testQuestionId], references: [id])
+  @@unique([attemptId, testQuestionId])
+  @@index([userId, reviewed])
+}
+model RevisionTask {
+  id           String @id @default(cuid())
+  userId       String
+  topicId      String
+  dueAt        DateTime @default(now())
+  step         Int @default(0)
+  completedAt  DateTime?
+  lastReviewed DateTime?
+  createdAt    DateTime @default(now())
+  user         User @relation(fields: [userId], references: [id])
+  topic        Topic @relation(fields: [topicId], references: [id])
+  attempts     RevisionAttempt[]
+  @@unique([userId, topicId])
+  @@index([userId, dueAt])
+}
+model RevisionAttempt {
+  id         String @id @default(cuid())
+  taskId     String
+  outcome    String
+  createdAt  DateTime @default(now())
+  task       RevisionTask @relation(fields: [taskId], references: [id])
+}
+model Challenge {
+  id          String @id @default(cuid())
+  name        String
+  description String
+  testId      String @unique
+  startsAt    DateTime
+  endsAt      DateTime
+  public      Boolean @default(true)
+  inviteCode  String @unique @default(cuid())
+  published   Boolean @default(false)
+  test        Test @relation(fields: [testId], references: [id])
+  participations ChallengeParticipation[]
+}
+model ChallengeParticipation {
+  id          String @id @default(cuid())
+  challengeId String
+  userId      String
+  attemptId   String @unique
+  challenge   Challenge @relation(fields: [challengeId], references: [id])
+  user        User @relation(fields: [userId], references: [id])
+  attempt     TestAttempt @relation(fields: [attemptId], references: [id])
+  @@unique([challengeId, userId])
+}
+model AuditLog {
+  id        String @id @default(cuid())
+  userId    String
+  action    String
+  entityId  String
+  metadata  Json?
+  createdAt DateTime @default(now())
+  user      User @relation(fields: [userId], references: [id])
+  @@index([createdAt])
+}
+model PlatformSettings {
+  key       String @id
+  value     Json
+  updatedAt DateTime @updatedAt
+}
+model RateLimit {
+  key       String @id
+  count     Int
+  resetAt   DateTime
+  @@index([resetAt])
+}
+
+// Private ingestion records are not application Question rows until explicit publication.
+model SourceDocument {
+  id String @id
+  fileName String
+  title String
+  sha256 String @unique
+  pageCount Int
+  declaredCount Int
+  rightsStatus String @default("UNVERIFIED")
+  rightsEvidence String?
+  metadata Json
+  questions SourceQuestion[]
+  jobs ImportJob[]
+}
+model ImportJob {
+  id String @id
+  sourceId String
+  source SourceDocument @relation(fields:[sourceId], references:[id])
+  version String
+  status String
+  processed Int @default(0)
+  errors Json
+  updatedAt DateTime @updatedAt
+}
+model SourceQuestion {
+  canonicalVersions CanonicalQuestionRecord[]
+  id String @id
+  sourceId String
+  source SourceDocument @relation(fields:[sourceId], references:[id])
+  sourceNumber Int
+  year Int?
+  exam String
+  page Int
+  type String
+  sourceOut Boolean
+  contentHash String
+  extracted Json
+  suggestions Json
+  reviewStatus String @default("PENDING")
+  answerStatus String @default("SOURCE_MATCHED")
+  eligibility String @default("UNVERIFIED")
+  eligibilityVersion String @default("NEET-2027-PROVISIONAL")
+  rightsStatus String @default("UNVERIFIED")
+  rightsEvidence String?
+  reviewEvidence String?
+  solution String?
+  solutionSource String?
+  solutionReviewStatus String @default("MISSING")
+  solutionPublished Boolean @default(false)
+  questionId String? @unique
+  question Question? @relation(fields:[questionId], references:[id])
+  @@unique([sourceId, sourceNumber])
+  @@index([reviewStatus, year, sourceId])
+  @@index([contentHash])
+}
+model SyllabusUnit {
+  id String @id
+  name String
+  classLevel Int
+  subjectId String
+  subject Subject @relation(fields:[subjectId], references:[id])
+  sourceRef String
+  chapters Chapter[]
+}
+model CanonicalQuestionRecord {
+ questionId String
+ contentVersion Int
+ schemaVersion String
+ subject String
+ chapterId String?
+ contentHash String
+ document Json
+ technicalState String
+ issues Json
+ createdAt DateTime @default(now()) @db.Timestamptz(6)
+ source SourceQuestion @relation(fields:[questionId],references:[id])
+ chapter Chapter? @relation(fields:[chapterId],references:[id])
+ options CanonicalQuestionOption[]
+ topics CanonicalQuestionTopic[]
+ @@id([questionId,contentVersion])
+ @@index([subject,chapterId,technicalState],map:"CanonicalQuestionRecord_scope")
+ @@index([contentHash],map:"CanonicalQuestionRecord_duplicates")
+}
+model CanonicalQuestionOption {
+ questionId String
+ contentVersion Int
+ optionId String
+ label String
+ content Json
+ correct Boolean
+ question CanonicalQuestionRecord @relation(fields:[questionId,contentVersion],references:[questionId,contentVersion])
+ @@id([questionId,contentVersion,optionId])
+ @@unique([questionId,contentVersion,label])
+}
+model CanonicalQuestionTopic {
+ questionId String
+ contentVersion Int
+ topicId String
+ role String
+ verified Boolean @default(false)
+ question CanonicalQuestionRecord @relation(fields:[questionId,contentVersion],references:[questionId,contentVersion])
+ topic Topic @relation(fields:[topicId],references:[id])
+ @@id([questionId,contentVersion,topicId,role])
+}

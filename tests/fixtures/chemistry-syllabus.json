@@ -1,0 +1,2254 @@
+[
+  {
+    "id": "chemistry-school-11-1",
+    "classLevel": 11,
+    "name": "Some Basic Concepts of Chemistry",
+    "scope": "THEORY",
+    "category": "Physical Chemistry",
+    "topics": [
+      {
+        "id": "chemistry-school-11-1-t1",
+        "name": "Importance of Chemistry",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-1-t2",
+        "name": "Nature of Matter",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-1-t3",
+        "name": "Properties of Matter and their Measurement",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-1-t4",
+        "name": "Uncertainty in Measurement",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-1-t5",
+        "name": "Laws of Chemical Combination",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-1-t6",
+        "name": "Dalton's Atomic Theory",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-1-t7",
+        "name": "Atomic and Molecular Masses",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-1-t8",
+        "name": "Mole Concept and Molar Masses",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-1-t9",
+        "name": "Percentage Composition",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-1-t10",
+        "name": "Stoichiometry and Stoichiometric Calculations",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-1-t8-s1",
+        "name": "Mole concept",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": "chemistry-school-11-1-t8",
+        "scope": "THEORY",
+        "derivation": "Concept subdivision of source clause; not a verbatim syllabus heading"
+      },
+      {
+        "id": "chemistry-school-11-1-t8-s2",
+        "name": "Molar mass",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": "chemistry-school-11-1-t8",
+        "scope": "THEORY",
+        "derivation": "Concept subdivision of source clause; not a verbatim syllabus heading"
+      },
+      {
+        "id": "chemistry-school-11-1-t9-s1",
+        "name": "Percentage composition",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": "chemistry-school-11-1-t9",
+        "scope": "THEORY",
+        "derivation": "Concept subdivision of source clause; not a verbatim syllabus heading"
+      },
+      {
+        "id": "chemistry-school-11-1-t9-s2",
+        "name": "Empirical and molecular formulae",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": "chemistry-school-11-1-t9",
+        "scope": "THEORY",
+        "derivation": "Concept subdivision of source clause; not a verbatim syllabus heading"
+      },
+      {
+        "id": "chemistry-school-11-1-t10-s1",
+        "name": "Stoichiometry",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": "chemistry-school-11-1-t10",
+        "scope": "THEORY",
+        "derivation": "Concept subdivision of source clause; not a verbatim syllabus heading"
+      },
+      {
+        "id": "chemistry-school-11-1-t10-s2",
+        "name": "Stoichiometric calculations",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": "chemistry-school-11-1-t10",
+        "scope": "THEORY",
+        "derivation": "Concept subdivision of source clause; not a verbatim syllabus heading"
+      }
+    ]
+  },
+  {
+    "id": "chemistry-school-11-2",
+    "classLevel": 11,
+    "name": "Structure of Atom",
+    "scope": "THEORY",
+    "category": "Physical Chemistry",
+    "topics": [
+      {
+        "id": "chemistry-school-11-2-t1",
+        "name": "Discovery of Sub-atomic Particles",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-2-t2",
+        "name": "Atomic Models",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-2-t3",
+        "name": "Developments Leading to the Bohr\u2019s Model of Atom",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-2-t4",
+        "name": "Bohr\u2019s Model for Hydrogen Atom",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-2-t5",
+        "name": "Towards Quantum Mechanical Model of the Atom",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-2-t6",
+        "name": "Quantum Mechanical Model of Atom",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-2-t1-s1",
+        "name": "Subatomic particles",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": "chemistry-school-11-2-t1",
+        "scope": "THEORY",
+        "derivation": "Concept subdivision of source clause; not a verbatim syllabus heading"
+      },
+      {
+        "id": "chemistry-school-11-2-t2-s1",
+        "name": "Thomson atomic model",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": "chemistry-school-11-2-t2",
+        "scope": "THEORY",
+        "derivation": "Concept subdivision of source clause; not a verbatim syllabus heading"
+      },
+      {
+        "id": "chemistry-school-11-2-t2-s2",
+        "name": "Rutherford atomic model",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": "chemistry-school-11-2-t2",
+        "scope": "THEORY",
+        "derivation": "Concept subdivision of source clause; not a verbatim syllabus heading"
+      },
+      {
+        "id": "chemistry-school-11-2-t3-s1",
+        "name": "Electromagnetic radiation",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": "chemistry-school-11-2-t3",
+        "scope": "THEORY",
+        "derivation": "Concept subdivision of source clause; not a verbatim syllabus heading"
+      },
+      {
+        "id": "chemistry-school-11-2-t3-s2",
+        "name": "Atomic spectra",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": "chemistry-school-11-2-t3",
+        "scope": "THEORY",
+        "derivation": "Concept subdivision of source clause; not a verbatim syllabus heading"
+      },
+      {
+        "id": "chemistry-school-11-2-t4-s1",
+        "name": "Bohr model",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": "chemistry-school-11-2-t4",
+        "scope": "THEORY",
+        "derivation": "Concept subdivision of source clause; not a verbatim syllabus heading"
+      },
+      {
+        "id": "chemistry-school-11-2-t4-s2",
+        "name": "Hydrogen spectrum",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": "chemistry-school-11-2-t4",
+        "scope": "THEORY",
+        "derivation": "Concept subdivision of source clause; not a verbatim syllabus heading"
+      },
+      {
+        "id": "chemistry-school-11-2-t5-s1",
+        "name": "Matter waves",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": "chemistry-school-11-2-t5",
+        "scope": "THEORY",
+        "derivation": "Concept subdivision of source clause; not a verbatim syllabus heading"
+      },
+      {
+        "id": "chemistry-school-11-2-t5-s2",
+        "name": "Uncertainty principle",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": "chemistry-school-11-2-t5",
+        "scope": "THEORY",
+        "derivation": "Concept subdivision of source clause; not a verbatim syllabus heading"
+      },
+      {
+        "id": "chemistry-school-11-2-t6-s1",
+        "name": "Quantum numbers",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": "chemistry-school-11-2-t6",
+        "scope": "THEORY",
+        "derivation": "Concept subdivision of source clause; not a verbatim syllabus heading"
+      },
+      {
+        "id": "chemistry-school-11-2-t6-s2",
+        "name": "Atomic orbitals",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": "chemistry-school-11-2-t6",
+        "scope": "THEORY",
+        "derivation": "Concept subdivision of source clause; not a verbatim syllabus heading"
+      },
+      {
+        "id": "chemistry-school-11-2-t6-s3",
+        "name": "Electronic configuration",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": "chemistry-school-11-2-t6",
+        "scope": "THEORY",
+        "derivation": "Concept subdivision of source clause; not a verbatim syllabus heading"
+      }
+    ]
+  },
+  {
+    "id": "chemistry-school-11-3",
+    "classLevel": 11,
+    "name": "Classification of Elements and Periodicity in Properties",
+    "scope": "THEORY",
+    "category": "Inorganic Chemistry",
+    "topics": [
+      {
+        "id": "chemistry-school-11-3-t1",
+        "name": "Why we Need to Classify Elements? Genesis of Periodic Classification",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-3-t2",
+        "name": "Modern Periodic Law and the Present Form of Periodic Table",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-3-t3",
+        "name": "Nomenclature of Elements with Atomic Number > 100",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-3-t4",
+        "name": "Electronic Configuration of Elements and the Periodic Table",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-3-t5",
+        "name": "Electronic Configuration of Elements and Types of Elements: s-",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-3-t6",
+        "name": "p-",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-3-t7",
+        "name": "d-",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-3-t8",
+        "name": "f- Blocks",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-3-t9",
+        "name": "Periodic Trends in Properties of Elements",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      }
+    ]
+  },
+  {
+    "id": "chemistry-school-11-4",
+    "classLevel": 11,
+    "name": "Chemical Bonding and Molecular Structure",
+    "scope": "THEORY",
+    "category": "Inorganic Chemistry",
+    "topics": [
+      {
+        "id": "chemistry-school-11-4-t1",
+        "name": "Kossel-Lewis Approach to Chemical Bonding",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-4-t2",
+        "name": "Ionic or Electrovalent Bond",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-4-t3",
+        "name": "Bond Parameters",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-4-t4",
+        "name": "The Valence Shell Electron Pair Repulsion (VSEPR) Theory",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-4-t5",
+        "name": "Valence Bond Theory",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-4-t6",
+        "name": "Hybridisation",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-4-t7",
+        "name": "Molecular Orbital Theory",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-4-t8",
+        "name": "Bonding in Some Homonuclear Diatomic Molecules",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-4-t9",
+        "name": "Hydrogen Bonding",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      }
+    ]
+  },
+  {
+    "id": "chemistry-school-11-5",
+    "classLevel": 11,
+    "name": "Thermodynamics",
+    "scope": "THEORY",
+    "category": "Physical Chemistry",
+    "topics": [
+      {
+        "id": "chemistry-school-11-5-t1",
+        "name": "Thermodynamic Terms",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-5-t2",
+        "name": "Applications",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-5-t3",
+        "name": "Measurement of \u2206U and \u2206H: Calorimetry",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-5-t4",
+        "name": "Enthalpy Change",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-5-t5",
+        "name": "and \u2206H of a Reaction \u2013 Reaction Enthalpy",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-5-t6",
+        "name": "Enthalpies for Different Types of Reactions",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-5-t7",
+        "name": "Spontaneity",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-5-t8",
+        "name": "Gibbs Energy Change and Equilibrium",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      }
+    ]
+  },
+  {
+    "id": "chemistry-school-11-6",
+    "classLevel": 11,
+    "name": "Equilibrium",
+    "scope": "THEORY",
+    "category": "Physical Chemistry",
+    "topics": [
+      {
+        "id": "chemistry-school-11-6-t1",
+        "name": "Equilibrium in Physical Processes",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-6-t2",
+        "name": "Equilibrium in Chemical Processes \u2013 Dynamic Equilibrium",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-6-t3",
+        "name": "Law of Chemical Equilibrium and Equilibrium Constant",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-6-t4",
+        "name": "Homogeneous Equilibria",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-6-t5",
+        "name": "Heterogeneous Equilibria",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-6-t6",
+        "name": "Applications of Equilibrium Constants",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-6-t7",
+        "name": "Relationship between Equilibrium Constant K",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-6-t8",
+        "name": "Reaction Quotient Q and Gibbs Energy G",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-6-t9",
+        "name": "Factors Affecting Equilibria",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-6-t10",
+        "name": "Ionic Equilibrium in Solution",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-6-t11",
+        "name": "Acids",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-6-t12",
+        "name": "Bases and Salts",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-6-t13",
+        "name": "Ionization of Acids and Bases",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-6-t14",
+        "name": "Buffer Solutions",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-6-t15",
+        "name": "Solubility Equilibria of Sparingly Soluble Salts",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-6-t11-s1",
+        "name": "Acids and bases",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": "chemistry-school-11-6-t11",
+        "scope": "THEORY",
+        "derivation": "Concept subdivision of source clause; not a verbatim syllabus heading"
+      },
+      {
+        "id": "chemistry-school-11-6-t11-s2",
+        "name": "pH and ionization",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": "chemistry-school-11-6-t11",
+        "scope": "THEORY",
+        "derivation": "Concept subdivision of source clause; not a verbatim syllabus heading"
+      },
+      {
+        "id": "chemistry-school-11-6-t14-s1",
+        "name": "Buffer solutions and buffer action",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": "chemistry-school-11-6-t14",
+        "scope": "THEORY",
+        "derivation": "Concept subdivision of source clause; not a verbatim syllabus heading"
+      }
+    ]
+  },
+  {
+    "id": "chemistry-school-11-7",
+    "classLevel": 11,
+    "name": "Redox Reactions",
+    "scope": "THEORY",
+    "category": "Physical Chemistry",
+    "topics": [
+      {
+        "id": "chemistry-school-11-7-t1",
+        "name": "Classical Idea of Redox Reactions \u2013 Oxidation and Reduction Reactions",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-7-t2",
+        "name": "Redox Reactions in Terms of Electron Transfer Reactions",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-7-t3",
+        "name": "Oxidation Number",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-7-t4",
+        "name": "Redox Reactions and Electrode Processes",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      }
+    ]
+  },
+  {
+    "id": "chemistry-school-11-8",
+    "classLevel": 11,
+    "name": "Organic Chemistry- Some Basic Principles and Techniques",
+    "scope": "THEORY",
+    "category": "Organic Chemistry",
+    "topics": [
+      {
+        "id": "chemistry-school-11-8-t1",
+        "name": "General Introduction",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-8-t2",
+        "name": "Tetravalence of Carbon: Shapes of Organic Compounds",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-8-t3",
+        "name": "Structural Representations of Organic Compounds",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-8-t4",
+        "name": "Classification of Organic Compounds",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-8-t5",
+        "name": "Nomenclature of Organic Compounds",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-8-t6",
+        "name": "Isomerism",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-8-t7",
+        "name": "Fundamental Concepts in Organic Reaction Mechanism",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-8-t8",
+        "name": "Methods of Purification of Organic Compounds",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-8-t9",
+        "name": "Qualitative Analysis of Organic Compounds",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-8-t10",
+        "name": "Quantitative Analysis",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      }
+    ]
+  },
+  {
+    "id": "chemistry-school-11-9",
+    "classLevel": 11,
+    "name": "Hydrocarbons",
+    "scope": "THEORY",
+    "category": "Organic Chemistry",
+    "topics": [
+      {
+        "id": "chemistry-school-11-9-t1",
+        "name": "Classification",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-9-t2",
+        "name": "Alkanes",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-9-t3",
+        "name": "Alkenes",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-9-t4",
+        "name": "Alkynes",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-9-t5",
+        "name": "Aromatic Hydrocarbon",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-11-9-t6",
+        "name": "Carcinogenic and Toxicity",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "THEORY"
+      }
+    ]
+  },
+  {
+    "id": "chemistry-school-11-formative-block",
+    "classLevel": 11,
+    "name": "s & p Block Elements (formative only)",
+    "scope": "FORMATIVE",
+    "category": "Inorganic Chemistry",
+    "topics": [
+      {
+        "id": "chemistry-school-11-formative-block-t1",
+        "name": "Electronic configuration",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "FORMATIVE"
+      },
+      {
+        "id": "chemistry-school-11-formative-block-t2",
+        "name": "atomic & Ionic radii",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "FORMATIVE"
+      },
+      {
+        "id": "chemistry-school-11-formative-block-t3",
+        "name": "Ionization Enthalpy",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "FORMATIVE"
+      },
+      {
+        "id": "chemistry-school-11-formative-block-t4",
+        "name": "Hydration Enthalpy and general trends in physical and chemical properties of s and p block elements across the periods and down the groups",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "FORMATIVE"
+      },
+      {
+        "id": "chemistry-school-11-formative-block-t5",
+        "name": "unique behavior of the first element in each group",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "FORMATIVE"
+      }
+    ]
+  },
+  {
+    "id": "chemistry-school-11-formative-gas",
+    "classLevel": 11,
+    "name": "The Gaseous State (formative only)",
+    "scope": "FORMATIVE",
+    "category": "Physical Chemistry",
+    "topics": [
+      {
+        "id": "chemistry-school-11-formative-gas-t1",
+        "name": "Qualitative treatment of Gas laws",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "FORMATIVE"
+      },
+      {
+        "id": "chemistry-school-11-formative-gas-t2",
+        "name": "Ideal gas equation and deviations from it",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "FORMATIVE"
+      }
+    ]
+  },
+  {
+    "id": "chemistry-school-11-practical",
+    "classLevel": 11,
+    "name": "Practical Chemistry",
+    "scope": "PRACTICAL",
+    "category": "Practical Chemistry",
+    "topics": [
+      {
+        "id": "chemistry-school-11-practical-t1",
+        "name": "Basic Laboratory Techniques",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=4; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "PRACTICAL"
+      },
+      {
+        "id": "chemistry-school-11-practical-t1-s2",
+        "name": "Cutting glass tube and glass rod",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=4; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": "chemistry-school-11-practical-t1",
+        "scope": "PRACTICAL"
+      },
+      {
+        "id": "chemistry-school-11-practical-t1-s3",
+        "name": "Bending a glass tube",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=4; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": "chemistry-school-11-practical-t1",
+        "scope": "PRACTICAL"
+      },
+      {
+        "id": "chemistry-school-11-practical-t1-s4",
+        "name": "Drawing out a glass jet",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=4; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": "chemistry-school-11-practical-t1",
+        "scope": "PRACTICAL"
+      },
+      {
+        "id": "chemistry-school-11-practical-t1-s5",
+        "name": "Boring a cork",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=4; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": "chemistry-school-11-practical-t1",
+        "scope": "PRACTICAL"
+      },
+      {
+        "id": "chemistry-school-11-practical-t2",
+        "name": "Characterization and Purification of Chemical Substances",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=4; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "PRACTICAL"
+      },
+      {
+        "id": "chemistry-school-11-practical-t2-s2",
+        "name": "Determination of melting point of an organic compound.",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=4; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": "chemistry-school-11-practical-t2",
+        "scope": "PRACTICAL"
+      },
+      {
+        "id": "chemistry-school-11-practical-t2-s3",
+        "name": "Determination of boiling point of an organic compound.",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=4; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": "chemistry-school-11-practical-t2",
+        "scope": "PRACTICAL"
+      },
+      {
+        "id": "chemistry-school-11-practical-t2-s4",
+        "name": "Crystallization of impure sample of any one of the following: Alum, Copper Sulphate, Benzoic Acid.",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=4; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": "chemistry-school-11-practical-t2",
+        "scope": "PRACTICAL"
+      },
+      {
+        "id": "chemistry-school-11-practical-t3",
+        "name": "Quantitative Estimation",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=4; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "PRACTICAL"
+      },
+      {
+        "id": "chemistry-school-11-practical-t3-s2",
+        "name": "Using a mechanical balance / electronic balance.",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=4; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": "chemistry-school-11-practical-t3",
+        "scope": "PRACTICAL"
+      },
+      {
+        "id": "chemistry-school-11-practical-t3-s3",
+        "name": "Preparation of standard solution of Oxalic acid.",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=4; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": "chemistry-school-11-practical-t3",
+        "scope": "PRACTICAL"
+      },
+      {
+        "id": "chemistry-school-11-practical-t3-s4",
+        "name": "Determination of strength of a given solution of Sodium hydroxide by titrating it against standard solution of Oxalic acid.",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=4; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": "chemistry-school-11-practical-t3",
+        "scope": "PRACTICAL"
+      },
+      {
+        "id": "chemistry-school-11-practical-t3-s5",
+        "name": "Preparation of standard solution of Sodium carbonate.",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=4; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": "chemistry-school-11-practical-t3",
+        "scope": "PRACTICAL"
+      },
+      {
+        "id": "chemistry-school-11-practical-t3-s6",
+        "name": "Determination of strength of a given solution of hydrochloric acid by titrating it against standard Sodium carbonate solution.",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=4; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": "chemistry-school-11-practical-t3",
+        "scope": "PRACTICAL"
+      },
+      {
+        "id": "chemistry-school-11-practical-t4",
+        "name": "Experiments based on pH",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=4; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "PRACTICAL"
+      },
+      {
+        "id": "chemistry-school-11-practical-t4-s2",
+        "name": "Any one of the following experiments:",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=4; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": "chemistry-school-11-practical-t4",
+        "scope": "PRACTICAL"
+      },
+      {
+        "id": "chemistry-school-11-practical-t4-s3",
+        "name": "Determination of pH of some solutions obtained from fruit juices, solution of known and varied concentrations of acids, bases and salts using pH paper or universal indicator.",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=4; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": "chemistry-school-11-practical-t4",
+        "scope": "PRACTICAL"
+      },
+      {
+        "id": "chemistry-school-11-practical-t4-s4",
+        "name": "Comparing the pH of solutions of strong and weak acids of same concentration.",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=4; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": "chemistry-school-11-practical-t4",
+        "scope": "PRACTICAL"
+      },
+      {
+        "id": "chemistry-school-11-practical-t4-s5",
+        "name": "Study the pH change in the titration of a strong base using universal indicator.",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=4; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": "chemistry-school-11-practical-t4",
+        "scope": "PRACTICAL"
+      },
+      {
+        "id": "chemistry-school-11-practical-t4-s6",
+        "name": "Study the pH change by common \u2013 ion in case of weak acids and weak bases.",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=4; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": "chemistry-school-11-practical-t4",
+        "scope": "PRACTICAL"
+      },
+      {
+        "id": "chemistry-school-11-practical-t5",
+        "name": "Chemical Equilibrium :",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=4; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "PRACTICAL"
+      },
+      {
+        "id": "chemistry-school-11-practical-t5-s1",
+        "name": "Any one of the following experiments :",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=4; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": "chemistry-school-11-practical-t5",
+        "scope": "PRACTICAL"
+      },
+      {
+        "id": "chemistry-school-11-practical-t5-s2",
+        "name": "Study the shift in equilibrium between ferric ions and thiocyanate ions by increasing/decreasing the concentration of either of the ions.",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=4; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": "chemistry-school-11-practical-t5",
+        "scope": "PRACTICAL"
+      },
+      {
+        "id": "chemistry-school-11-practical-t5-s3",
+        "name": "Study the shift in equilibrium between [Co(H2O)6]2+ and chloride ions by changing the concentration of either of the ions. 4",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=4; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": "chemistry-school-11-practical-t5",
+        "scope": "PRACTICAL"
+      },
+      {
+        "id": "chemistry-school-11-practical-t6",
+        "name": "Qualitative Analysis",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=4; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "PRACTICAL"
+      },
+      {
+        "id": "chemistry-school-11-practical-t6-s2",
+        "name": "Determination of one anion and one cation in a given salt Cations- Pb2+, Cu2+, Al3+, Fe3+, Mn2+, Ni2+, Zn2+, Co2+, Ca2+, Sr2+, Ba2+, Mg2+, NH4+ Anions- CO32-, S2-, NO2-, SO32-, NO3-, Cl-, Br-, I-, SO42-, PO3-, CH3COO- (Note: Insoluble salts excluded)",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=4; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": "chemistry-school-11-practical-t6",
+        "scope": "PRACTICAL"
+      },
+      {
+        "id": "chemistry-school-11-practical-t6-s3",
+        "name": "Detection of - Nitrogen, Sulphur, Chlorine in organic compounds.",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=4; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": "chemistry-school-11-practical-t6",
+        "scope": "PRACTICAL"
+      }
+    ]
+  },
+  {
+    "id": "chemistry-school-11-projects",
+    "classLevel": 11,
+    "name": "Suggested Chemistry Projects",
+    "scope": "PROJECT",
+    "category": "Practical Chemistry",
+    "topics": [
+      {
+        "id": "chemistry-school-11-projects-t2",
+        "name": "Checking the bacterial contamination in drinking water by testing sulphide ion",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=5; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "PROJECT"
+      },
+      {
+        "id": "chemistry-school-11-projects-t3",
+        "name": "Study of the methods of purification of water",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=5; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "PROJECT"
+      },
+      {
+        "id": "chemistry-school-11-projects-t4",
+        "name": "Testing the hardness, presence of Iron, Fluoride, Chloride, etc., depending upon the regional variation in drinking water and study of causes of presence of these ions above permissible limit (if any).",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=5; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "PROJECT"
+      },
+      {
+        "id": "chemistry-school-11-projects-t5",
+        "name": "Investigation of the foaming capacity of different washing soaps and the effect of addition of Sodium carbonate on it",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=5; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "PROJECT"
+      },
+      {
+        "id": "chemistry-school-11-projects-t6",
+        "name": "Study the acidity of different samples of tea leaves.",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=5; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "PROJECT"
+      },
+      {
+        "id": "chemistry-school-11-projects-t7",
+        "name": "Determination of the rate of evaporation of different liquids",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=5; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "PROJECT"
+      },
+      {
+        "id": "chemistry-school-11-projects-t8",
+        "name": "Study the effect of acids and bases on the tensile strength of fibers.",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=5; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "PROJECT"
+      },
+      {
+        "id": "chemistry-school-11-projects-t9",
+        "name": "Study of acidity of fruit and vegetable juices.",
+        "sourceRef": "11_chemistry_SYLLABUS_2026_27_EM.pdf#page=5; sha256=76b3fc9128196eaf4c1b59a8adc0dec6827cc978075f48c08a99476c3ab13d60",
+        "parentId": null,
+        "scope": "PROJECT"
+      }
+    ]
+  },
+  {
+    "id": "chemistry-school-12-1",
+    "classLevel": 12,
+    "name": "Solutions",
+    "scope": "THEORY",
+    "category": "Physical Chemistry",
+    "topics": [
+      {
+        "id": "chemistry-school-12-1-t1",
+        "name": "Types of Solutions",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-12-1-t2",
+        "name": "Expression of Concentration of Solutions",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-12-1-t3",
+        "name": "Solubility",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-12-1-t4",
+        "name": "Vapour Pressure of Liquid Solutions",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-12-1-t5",
+        "name": "Ideal and Non \u2013Ideal Solutions",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-12-1-t6",
+        "name": "Colligative Properties and Determination of Molar Mass",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-12-1-t7",
+        "name": "Abnormal Molecular Masses",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      }
+    ]
+  },
+  {
+    "id": "chemistry-school-12-2",
+    "classLevel": 12,
+    "name": "Electrochemistry",
+    "scope": "THEORY",
+    "category": "Physical Chemistry",
+    "topics": [
+      {
+        "id": "chemistry-school-12-2-t1",
+        "name": "Electrochemical Cells",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-12-2-t2",
+        "name": "Galvanic Cells",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-12-2-t3",
+        "name": "Nernst Equation",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-12-2-t4",
+        "name": "Conductance of Electrolytic solutions",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-12-2-t5",
+        "name": "Electrolytic Cells and Electrolysis",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-12-2-t6",
+        "name": "Batteries",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-12-2-t7",
+        "name": "Fuel Cells",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-12-2-t8",
+        "name": "Corrosion",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-12-2-t2-s1",
+        "name": "Electrode potential",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": "chemistry-school-12-2-t2",
+        "scope": "THEORY",
+        "derivation": "Concept subdivision of source clause; not a verbatim syllabus heading"
+      },
+      {
+        "id": "chemistry-school-12-2-t3-s1",
+        "name": "Nernst equation and cell potential",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": "chemistry-school-12-2-t3",
+        "scope": "THEORY",
+        "derivation": "Concept subdivision of source clause; not a verbatim syllabus heading"
+      },
+      {
+        "id": "chemistry-school-12-2-t5-s1",
+        "name": "Electrolysis",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": "chemistry-school-12-2-t5",
+        "scope": "THEORY",
+        "derivation": "Concept subdivision of source clause; not a verbatim syllabus heading"
+      }
+    ]
+  },
+  {
+    "id": "chemistry-school-12-3",
+    "classLevel": 12,
+    "name": "Chemical Kinetics",
+    "scope": "THEORY",
+    "category": "Physical Chemistry",
+    "topics": [
+      {
+        "id": "chemistry-school-12-3-t1",
+        "name": "Rate of a Chemical reaction",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-12-3-t2",
+        "name": "factors influencing rate of reaction",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-12-3-t3",
+        "name": "integrated rate equations",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-12-3-t4",
+        "name": "Temperature Dependence of the rate of a reaction",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-12-3-t5",
+        "name": "Collision theory of Chemical Reactions",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      }
+    ]
+  },
+  {
+    "id": "chemistry-school-12-4",
+    "classLevel": 12,
+    "name": "d- and f- Block Elements",
+    "scope": "THEORY",
+    "category": "Inorganic Chemistry",
+    "topics": [
+      {
+        "id": "chemistry-school-12-4-t1",
+        "name": "Position in the Periodic Table",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-12-4-t2",
+        "name": "Electronic configuration of the d-Block Elements",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-12-4-t3",
+        "name": "General properties of the Transition Elements (d-Block)",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-12-4-t4",
+        "name": "Some Important Compounds of Transition Elements",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-12-4-t5",
+        "name": "The Lanthanoids",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-12-4-t6",
+        "name": "The Actinoids",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-12-4-t7",
+        "name": "Some Applications of d- and f- Block Elements",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      }
+    ]
+  },
+  {
+    "id": "chemistry-school-12-5",
+    "classLevel": 12,
+    "name": "Coordination Compounds",
+    "scope": "THEORY",
+    "category": "Inorganic Chemistry",
+    "topics": [
+      {
+        "id": "chemistry-school-12-5-t1",
+        "name": "Werner\u2019s Theory of Coordination Compound",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-12-5-t2",
+        "name": "Definition of Some important terms pertaining to Coordination Compounds",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-12-5-t3",
+        "name": "Nomenclature of Coordination Compounds. Isomerism in Coordination Compounds",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-12-5-t4",
+        "name": "Bonding in coordination compounds",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-12-5-t5",
+        "name": "Bonding in Metal Carbonyls",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-12-5-t6",
+        "name": "Importance and Applications of Coordination Compounds",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      }
+    ]
+  },
+  {
+    "id": "chemistry-school-12-6",
+    "classLevel": 12,
+    "name": "Haloalkanes and Haloarenes",
+    "scope": "THEORY",
+    "category": "Organic Chemistry",
+    "topics": [
+      {
+        "id": "chemistry-school-12-6-t1",
+        "name": "Classification",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-12-6-t2",
+        "name": "Nomenclature",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-12-6-t3",
+        "name": "Nature of C\u2013X bond",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-12-6-t4",
+        "name": "Methods of Preparation of Haloalkanes",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-12-6-t5",
+        "name": "Preparation of Haloarenes",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-12-6-t6",
+        "name": "Physical Properties",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-12-6-t7",
+        "name": "Chemical Reactions",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-12-6-t8",
+        "name": "Polyhalogen Compounds",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      }
+    ]
+  },
+  {
+    "id": "chemistry-school-12-7",
+    "classLevel": 12,
+    "name": "Alcohols, Phenols and Ethers",
+    "scope": "THEORY",
+    "category": "Organic Chemistry",
+    "topics": [
+      {
+        "id": "chemistry-school-12-7-t1",
+        "name": "Classification",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-12-7-t2",
+        "name": "Nomenclature",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-12-7-t3",
+        "name": "Structures of Functional Groups",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-12-7-t4",
+        "name": "Alcohols and Phenols",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-12-7-t5",
+        "name": "Some commercially Important Alcohols",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-12-7-t6",
+        "name": "Ethers",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=1; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      }
+    ]
+  },
+  {
+    "id": "chemistry-school-12-8",
+    "classLevel": 12,
+    "name": "Aldehydes, Ketones and Carboxylic Acids",
+    "scope": "THEORY",
+    "category": "Organic Chemistry",
+    "topics": [
+      {
+        "id": "chemistry-school-12-8-t1",
+        "name": "Nomenclature and Structure of Carbonyl Group",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-12-8-t2",
+        "name": "Preparation of Aldehydes and Ketones",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-12-8-t3",
+        "name": "Physical Properties and Chemical Reactions",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-12-8-t4",
+        "name": "Uses of Aldehydes and Ketones Nomenclature Structure of Carboxyl Group",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-12-8-t5",
+        "name": "Methods of Preparation of Carboxylic Acids",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-12-8-t6",
+        "name": "Physical Properties and Chemical Reactions",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-12-8-t7",
+        "name": "Uses of Carboxylic Acids",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      }
+    ]
+  },
+  {
+    "id": "chemistry-school-12-9",
+    "classLevel": 12,
+    "name": "Amines",
+    "scope": "THEORY",
+    "category": "Organic Chemistry",
+    "topics": [
+      {
+        "id": "chemistry-school-12-9-t1",
+        "name": "Structureof Amines",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-12-9-t2",
+        "name": "Classification",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-12-9-t3",
+        "name": "Nomenclature",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-12-9-t4",
+        "name": "Preparation of Amines",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-12-9-t5",
+        "name": "Physical Properties",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-12-9-t6",
+        "name": "Chemical Reactions",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-12-9-t7",
+        "name": "Methods of Preparation of Diazonium Salts",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-12-9-t8",
+        "name": "Physical Properties",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-12-9-t9",
+        "name": "Chemical Reactions",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-12-9-t10",
+        "name": "Chemical Reactions Importance of Diazonium Salts in Synthesis of Aromatic Compounds",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      }
+    ]
+  },
+  {
+    "id": "chemistry-school-12-10",
+    "classLevel": 12,
+    "name": "Biomolecules",
+    "scope": "THEORY",
+    "category": "Organic Chemistry",
+    "topics": [
+      {
+        "id": "chemistry-school-12-10-t1",
+        "name": "Carbohydrates. Proteins",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-12-10-t2",
+        "name": "Enzymes",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-12-10-t3",
+        "name": "Vitamins Nucleic Acids",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      },
+      {
+        "id": "chemistry-school-12-10-t4",
+        "name": "Hormones",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "THEORY"
+      }
+    ]
+  },
+  {
+    "id": "chemistry-school-12-formative-1",
+    "classLevel": 12,
+    "name": "Surface Chemistry (formative only)",
+    "scope": "FORMATIVE",
+    "category": "Physical Chemistry",
+    "topics": [
+      {
+        "id": "chemistry-school-12-formative-1-t1",
+        "name": "Adsorption - physisorption and chemisorption",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "FORMATIVE"
+      },
+      {
+        "id": "chemistry-school-12-formative-1-t2",
+        "name": "factors affecting adsorption of gases on solids",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "FORMATIVE"
+      },
+      {
+        "id": "chemistry-school-12-formative-1-t3",
+        "name": "colloidal state distinction between true solutions",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "FORMATIVE"
+      },
+      {
+        "id": "chemistry-school-12-formative-1-t4",
+        "name": "colloids and suspension",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "FORMATIVE"
+      },
+      {
+        "id": "chemistry-school-12-formative-1-t5",
+        "name": "lyophilic",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "FORMATIVE"
+      },
+      {
+        "id": "chemistry-school-12-formative-1-t6",
+        "name": "lyophobic properties of colloids",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "FORMATIVE"
+      },
+      {
+        "id": "chemistry-school-12-formative-1-t7",
+        "name": "coagulation",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "FORMATIVE"
+      },
+      {
+        "id": "chemistry-school-12-formative-1-t8",
+        "name": "emulsion - types of emulsions",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "FORMATIVE"
+      }
+    ]
+  },
+  {
+    "id": "chemistry-school-12-formative-2",
+    "classLevel": 12,
+    "name": "General Principles and Processes of Isolation of Elements (formative only)",
+    "scope": "FORMATIVE",
+    "category": "Inorganic Chemistry",
+    "topics": [
+      {
+        "id": "chemistry-school-12-formative-2-t1",
+        "name": "Principles and methods of extraction - concentration",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "FORMATIVE"
+      },
+      {
+        "id": "chemistry-school-12-formative-2-t2",
+        "name": "oxidation",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "FORMATIVE"
+      },
+      {
+        "id": "chemistry-school-12-formative-2-t3",
+        "name": "reduction-electrolytic method and refining",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "FORMATIVE"
+      }
+    ]
+  },
+  {
+    "id": "chemistry-school-12-formative-3",
+    "classLevel": 12,
+    "name": "Polymers (formative only)",
+    "scope": "FORMATIVE",
+    "category": "Organic Chemistry",
+    "topics": [
+      {
+        "id": "chemistry-school-12-formative-3-t1",
+        "name": "Polymerisation",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "FORMATIVE"
+      },
+      {
+        "id": "chemistry-school-12-formative-3-t2",
+        "name": "Homopolymers and copolymer with few examples",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "FORMATIVE"
+      }
+    ]
+  },
+  {
+    "id": "chemistry-school-12-formative-4",
+    "classLevel": 12,
+    "name": "Chemistry in Everyday life (formative only)",
+    "scope": "FORMATIVE",
+    "category": "Organic Chemistry",
+    "topics": [
+      {
+        "id": "chemistry-school-12-formative-4-t1",
+        "name": "Chemicals in medicines - analgesics",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "FORMATIVE"
+      },
+      {
+        "id": "chemistry-school-12-formative-4-t2",
+        "name": "tranquilizers antiseptics",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "FORMATIVE"
+      },
+      {
+        "id": "chemistry-school-12-formative-4-t3",
+        "name": "disinfectants",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "FORMATIVE"
+      },
+      {
+        "id": "chemistry-school-12-formative-4-t4",
+        "name": "antimicrobials",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "FORMATIVE"
+      },
+      {
+        "id": "chemistry-school-12-formative-4-t5",
+        "name": "antifertility drugs",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "FORMATIVE"
+      },
+      {
+        "id": "chemistry-school-12-formative-4-t6",
+        "name": "antibiotics",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "FORMATIVE"
+      },
+      {
+        "id": "chemistry-school-12-formative-4-t7",
+        "name": "antacids",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "FORMATIVE"
+      },
+      {
+        "id": "chemistry-school-12-formative-4-t8",
+        "name": "antihistamines. Chemicals in food - preservatives",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "FORMATIVE"
+      },
+      {
+        "id": "chemistry-school-12-formative-4-t9",
+        "name": "artificial sweetening agents",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "FORMATIVE"
+      },
+      {
+        "id": "chemistry-school-12-formative-4-t10",
+        "name": "antioxidants",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=2; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "FORMATIVE"
+      }
+    ]
+  },
+  {
+    "id": "chemistry-school-12-practical",
+    "classLevel": 12,
+    "name": "Practical Chemistry",
+    "scope": "PRACTICAL",
+    "category": "Practical Chemistry",
+    "topics": [
+      {
+        "id": "chemistry-school-12-practical-t1",
+        "name": "Surface Chemistry",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=4; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "PRACTICAL"
+      },
+      {
+        "id": "chemistry-school-12-practical-t1-s1",
+        "name": "(a) Preparation of one lyophilic and one lyophobic sol",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=4; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": "chemistry-school-12-practical-t1",
+        "scope": "PRACTICAL"
+      },
+      {
+        "id": "chemistry-school-12-practical-t1-s2",
+        "name": "Lyophilic sol - starch, egg albumin and gum",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=4; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": "chemistry-school-12-practical-t1",
+        "scope": "PRACTICAL"
+      },
+      {
+        "id": "chemistry-school-12-practical-t1-s3",
+        "name": "Lyophobic sol - aluminium hydroxide, ferric hydroxide, arsenous sulphide. (b) Dialysis of sol \u2013 prepared in (a) above. (c) Study of the role of emulsifying agents in stabilizing the emulsion of different oils.",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=4; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": "chemistry-school-12-practical-t1",
+        "scope": "PRACTICAL"
+      },
+      {
+        "id": "chemistry-school-12-practical-t2",
+        "name": "Chemical Kinetics",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=4; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "PRACTICAL"
+      },
+      {
+        "id": "chemistry-school-12-practical-t2-s2",
+        "name": "Effect of concentration and temperature on the rate of reaction between Sodium Thiosulphate and Hydrochloric acid.",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=4; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": "chemistry-school-12-practical-t2",
+        "scope": "PRACTICAL"
+      },
+      {
+        "id": "chemistry-school-12-practical-t2-s3",
+        "name": "Study of reaction rates of any one of the following:",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=4; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": "chemistry-school-12-practical-t2",
+        "scope": "PRACTICAL"
+      },
+      {
+        "id": "chemistry-school-12-practical-t2-s4",
+        "name": "Reaction of I- ion with H2O2 at room temperature using different concentration of Iodide ions.",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=4; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": "chemistry-school-12-practical-t2",
+        "scope": "PRACTICAL"
+      },
+      {
+        "id": "chemistry-school-12-practical-t2-s5",
+        "name": "Reaction between Potassium Iodate, (KIO3) and Sodium Sulphite: (Na2SO3) using starch solution as indicator (clock reaction).",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=4; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": "chemistry-school-12-practical-t2",
+        "scope": "PRACTICAL"
+      },
+      {
+        "id": "chemistry-school-12-practical-t3",
+        "name": "Thermochemistry",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=4; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "PRACTICAL"
+      },
+      {
+        "id": "chemistry-school-12-practical-t3-s1",
+        "name": "Any one of the following experiments",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=4; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": "chemistry-school-12-practical-t3",
+        "scope": "PRACTICAL"
+      },
+      {
+        "id": "chemistry-school-12-practical-t3-s2",
+        "name": "Enthalpy of dissolution of Copper Sulphate or Potassium Nitrate.",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=4; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": "chemistry-school-12-practical-t3",
+        "scope": "PRACTICAL"
+      },
+      {
+        "id": "chemistry-school-12-practical-t3-s3",
+        "name": "Enthalpy of neutralization of strong acid (HCI) and strong base (NaOH).",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=4; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": "chemistry-school-12-practical-t3",
+        "scope": "PRACTICAL"
+      },
+      {
+        "id": "chemistry-school-12-practical-t3-s4",
+        "name": "Determination of enthalpy change during interaction (Hydrogen bond formation) between Acetone and Chloroform.",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=4; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": "chemistry-school-12-practical-t3",
+        "scope": "PRACTICAL"
+      },
+      {
+        "id": "chemistry-school-12-practical-t4",
+        "name": "Electrochemistry",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=4; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "PRACTICAL"
+      },
+      {
+        "id": "chemistry-school-12-practical-t4-s1",
+        "name": "Variation of cell potential in Zn|Zn2+||Cu2+|Cu with change in concentration of electrolytes (CuSO4 or ZnSO4) at room temperature.",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=4; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": "chemistry-school-12-practical-t4",
+        "scope": "PRACTICAL"
+      },
+      {
+        "id": "chemistry-school-12-practical-t5",
+        "name": "Chromatography",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=4; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "PRACTICAL"
+      },
+      {
+        "id": "chemistry-school-12-practical-t5-s2",
+        "name": "Separation of pigments from extracts of leaves and flowers by paper chromatography and determination of Rf values.",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=4; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": "chemistry-school-12-practical-t5",
+        "scope": "PRACTICAL"
+      },
+      {
+        "id": "chemistry-school-12-practical-t5-s3",
+        "name": "Separation of constituents present in an inorganic mixture containing two cations only (Constituents having large difference in Rf values to be provided).",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=4; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": "chemistry-school-12-practical-t5",
+        "scope": "PRACTICAL"
+      },
+      {
+        "id": "chemistry-school-12-practical-t6",
+        "name": "Preparation of Inorganic Compounds",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=4; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "PRACTICAL"
+      },
+      {
+        "id": "chemistry-school-12-practical-t6-s2",
+        "name": "Preparation of double salt of Ferrous Ammonium Sulphate or PotashAlum.",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=4; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": "chemistry-school-12-practical-t6",
+        "scope": "PRACTICAL"
+      },
+      {
+        "id": "chemistry-school-12-practical-t6-s3",
+        "name": "Preparation of Potassium Ferric Oxalate.",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=4; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": "chemistry-school-12-practical-t6",
+        "scope": "PRACTICAL"
+      },
+      {
+        "id": "chemistry-school-12-practical-t7",
+        "name": "Determination of concentration / molarity of KMnO4 solution by titrating it against a standard",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=4; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "PRACTICAL"
+      },
+      {
+        "id": "chemistry-school-12-practical-t7-s1",
+        "name": "solution of:",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=4; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": "chemistry-school-12-practical-t7",
+        "scope": "PRACTICAL"
+      },
+      {
+        "id": "chemistry-school-12-practical-t7-s2",
+        "name": "Oxalic acid,",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=4; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": "chemistry-school-12-practical-t7",
+        "scope": "PRACTICAL"
+      },
+      {
+        "id": "chemistry-school-12-practical-t7-s3",
+        "name": "Ferrous Ammonium Sulphate (Students will be required to prepare standard solutions by weighing themselves)",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=4; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": "chemistry-school-12-practical-t7",
+        "scope": "PRACTICAL"
+      },
+      {
+        "id": "chemistry-school-12-practical-t8",
+        "name": "Preparation of Organic Compounds",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=4; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "PRACTICAL"
+      },
+      {
+        "id": "chemistry-school-12-practical-t8-s1",
+        "name": "Preparation of any one of the following compounds:",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=4; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": "chemistry-school-12-practical-t8",
+        "scope": "PRACTICAL"
+      },
+      {
+        "id": "chemistry-school-12-practical-t8-s2",
+        "name": "Acetanilide",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=4; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": "chemistry-school-12-practical-t8",
+        "scope": "PRACTICAL"
+      },
+      {
+        "id": "chemistry-school-12-practical-t8-s3",
+        "name": "Di- benzalacetone",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=4; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": "chemistry-school-12-practical-t8",
+        "scope": "PRACTICAL"
+      },
+      {
+        "id": "chemistry-school-12-practical-t8-s4",
+        "name": "p - Nitroacetanilide",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=4; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": "chemistry-school-12-practical-t8",
+        "scope": "PRACTICAL"
+      },
+      {
+        "id": "chemistry-school-12-practical-t8-s5",
+        "name": "Aniline yellow or 2\u2013Naphthol Aniline dye.",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=4; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": "chemistry-school-12-practical-t8",
+        "scope": "PRACTICAL"
+      },
+      {
+        "id": "chemistry-school-12-practical-t9",
+        "name": "Tests for the functional groups present in organic compounds:",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=5; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "PRACTICAL"
+      },
+      {
+        "id": "chemistry-school-12-practical-t9-s1",
+        "name": "Unsaturation, alcoholic, phenolic, aldehydic, ketonic, carboxylic and amino (Primary) groups.",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=5; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": "chemistry-school-12-practical-t9",
+        "scope": "PRACTICAL"
+      },
+      {
+        "id": "chemistry-school-12-practical-t10",
+        "name": "Characteristic tests of carbohydrates, fats and proteins in pure samples and their detection in",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=5; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "PRACTICAL"
+      },
+      {
+        "id": "chemistry-school-12-practical-t10-s1",
+        "name": "given food stuffs.",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=5; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": "chemistry-school-12-practical-t10",
+        "scope": "PRACTICAL"
+      },
+      {
+        "id": "chemistry-school-12-practical-t11",
+        "name": "Qualitative Analysis",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=5; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "PRACTICAL"
+      },
+      {
+        "id": "chemistry-school-12-practical-t11-s1",
+        "name": "Determination of one anion and one cation in a given salt Cations - Pb2+, Cu2+, Al3+, Fe3+, Mn2+, Ni2+, Zn2+, Co2+, Ca2+, Sr2+, Ba2+, Mg2+, NH4+ Anions - CO32-, S2-, NO2-, SO32-, NO3-, Cl-, Br-, I-, SO42-, PO43-, CH3COO- (Note : Insoluble salts excluded)",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=5; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": "chemistry-school-12-practical-t11",
+        "scope": "PRACTICAL"
+      }
+    ]
+  },
+  {
+    "id": "chemistry-school-12-projects",
+    "classLevel": 12,
+    "name": "Suggested Chemistry Projects",
+    "scope": "PROJECT",
+    "category": "Practical Chemistry",
+    "topics": [
+      {
+        "id": "chemistry-school-12-projects-t2",
+        "name": "Study of the presence of oxalate ions in guava fruit at different stages of ripening.",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=5; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "PROJECT"
+      },
+      {
+        "id": "chemistry-school-12-projects-t3",
+        "name": "Study of quantity of casein present in different samples of milk.",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=5; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "PROJECT"
+      },
+      {
+        "id": "chemistry-school-12-projects-t4",
+        "name": "Preparation of soybean milk and its comparison with the natural milk with respect to curd formation, effect of temperature, etc.",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=5; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "PROJECT"
+      },
+      {
+        "id": "chemistry-school-12-projects-t5",
+        "name": "Study of the effect of Potassium Bisulphate as food preservative under various conditions (temperature, concentration, time, etc.)",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=5; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "PROJECT"
+      },
+      {
+        "id": "chemistry-school-12-projects-t6",
+        "name": "Study of digestion of starch by salivary amylase and effect of pH and temperature on it.",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=5; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "PROJECT"
+      },
+      {
+        "id": "chemistry-school-12-projects-t7",
+        "name": "Comparative study of the rate of fermentation of following materials: wheat flour, gram flour, potato juice, carrot juice, etc.",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=5; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "PROJECT"
+      },
+      {
+        "id": "chemistry-school-12-projects-t8",
+        "name": "Extraction of essential oils present in Saunf (aniseed), Ajwain (carum), Illaichi (cardamom).",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=5; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "PROJECT"
+      },
+      {
+        "id": "chemistry-school-12-projects-t9",
+        "name": "Study of common food adulterants in fat, oil, butter, sugar, turmeric power, chilli powder and pepper.",
+        "sourceRef": "12_chemitry_SYLLABUS_2026_27_EM.pdf#page=5; sha256=4c31078f2d1e5d395073c2f348c83db20a37b2fcdd0f1a9f508a4ce3fd2f48e4",
+        "parentId": null,
+        "scope": "PROJECT"
+      }
+    ]
+  }
+]

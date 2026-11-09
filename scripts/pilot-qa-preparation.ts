@@ -1,0 +1,18 @@
+import 'dotenv/config';
+import {mkdir,writeFile} from 'node:fs/promises';
+import {db} from '../src/lib/db';
+import {canonicalQuestionSchema,contentStructureIssues} from '../src/lib/domain/canonical-question';
+import {eligibleBankWhere} from '../src/lib/services/publication';
+const scope=[['Physics: Units and Measurements','physics-school-11-1'],['Chemistry: Structure of Atom','chemistry-school-11-2'],['Biology: Cell — The Unit of Life','biology-school-11-8']] as const;
+const output='.local/pilot-qa';await mkdir(output,{recursive:true});
+const rows=[];const queue:Array<{id:string;chapter:string;version:number;decisions:string[];url:string}>=[];
+for(const [chapter,chapterId]of scope){
+ const records=await db.canonicalQuestionRecord.findMany({where:{chapterId},orderBy:{contentVersion:'desc'}});const seen=new Set<string>();
+ const latest=records.filter(r=>{if(seen.has(r.questionId))return false;seen.add(r.questionId);return true;});
+ const questions=latest.map(r=>canonicalQuestionSchema.parse(r.document));
+ const sources=await db.sourceQuestion.findMany({where:{id:{in:questions.map(q=>q.id)}},include:{source:true}});
+ const rightsVerified=sources.filter(r=>{const p=(r.source.metadata as {permissionDecision?:{evidenceOrigin?:string}}).permissionDecision;return r.rightsStatus==='CLEARED'&&r.source.rightsStatus==='CLEARED'&&p?.evidenceOrigin!=='OWNER_CHAT_DECLARATION';}).length;
+ for(const q of questions){const source=sources.find(s=>s.id===q.id)!;const decisions=[];const missing=contentStructureIssues(q);if(q.verification.extraction!=='APPROVED')decisions.push('SOURCE_VISUAL_COMPARISON');if(missing.length)decisions.push(...missing);if(q.verification.answer!=='VERIFIED')decisions.push('ANSWER_ALIGNMENT');if(q.syllabus.mappingState!=='APPROVED')decisions.push('VERIFY_TOPICS_AND_PREREQUISITES');if(q.verification.academic!=='APPROVED')decisions.push('ACADEMIC_REVIEW');if((source.source.metadata as {permissionDecision?:{evidenceOrigin?:string}}).permissionDecision?.evidenceOrigin==='OWNER_CHAT_DECLARATION')decisions.push('VERIFY_RIGHTS_DOCUMENTATION');if(decisions.length)queue.push({id:q.id,chapter,version:q.contentVersion,decisions:[...new Set(decisions)],url:'/admin/question-review?id='+q.id});}
+ rows.push({chapter,total:questions.length,machineContentShapeComplete:questions.filter(q=>!contentStructureIssues(q).length).length,structurallyCompleteVisuallyVerified:questions.filter(q=>q.verification.extraction==='APPROVED'&&!contentStructureIssues(q).length).length,extractionCorrected:sources.filter(s=>(s.extracted as {repairVersions?:Array<{structured?:unknown}>}).repairVersions?.some(r=>r.structured)).length,missingDiagramsConfirmed:null,diagramAssociationAssessment:'NOT_VISUALLY_ASSESSED',answerKeysMatched:questions.filter(q=>q.verification.answer==='VERIFIED').length,topicMappingsVerified:questions.filter(q=>q.syllabus.mappingState==='APPROVED').length,awaitingHumanReview:questions.filter(q=>queue.some(i=>i.id===q.id)).length,academicallyApproved:sources.filter(s=>s.reviewStatus==='APPROVED').length,rightsCleared: rightsVerified,ownerDeclarationsRetained:sources.filter(s=>(s.source.metadata as {permissionDecision?:{evidenceOrigin?:string}}).permissionDecision?.evidenceOrigin==='OWNER_CHAT_DECLARATION').length,published:await db.question.count({where:{importRecord:{is:{id:{in:questions.map(q=>q.id)}}},active:true,status:'APPROVED'}}),studentAvailable:await db.question.count({where:{AND:[eligibleBankWhere,{chapterId}]}})});
+}
+await writeFile(output+'/counts.json',JSON.stringify(rows,null,2));await writeFile(output+'/review-queue.jsonl',queue.map(q=>JSON.stringify(q)).join('\n')+'\n');console.log(JSON.stringify(rows,null,2));await db.$disconnect();
